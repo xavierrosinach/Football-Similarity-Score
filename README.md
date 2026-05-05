@@ -13,7 +13,7 @@ This project is intended to:
 
 ## Application Scope
 
-The model has been applied to the **top 20 teams worldwide according to the ELO ranking**, generating similarity reports for each player within these teams. This ranked is based on the code on the following (https://github.com/xavierrosinach/Elo-Ranking-Model-Football.git)[repository].
+The model has been applied to the **top 20 teams worldwide according to the ELO ranking**, generating similarity reports for each player within these teams. This ranking is based on the code available in the following repository: [Elo Ranking Model Football](https://github.com/xavierrosinach/Elo-Ranking-Model-Football.git).
 
 For each team, the system automatically generates a dataset containing the most similar players for every squad member.
 
@@ -45,23 +45,8 @@ This approach is particularly suitable for high-dimensional sports data, where t
 
 The model produces:
 
-- A ranked list of the **most similar players** for each player  
+- A ranked list of the **most similar players** (top 5) for each player  
 - A **normalized similarity score** (0–100%)  
 - Team-level outputs in `.csv` format  
 
 ---
-
-## Use Cases
-
-This system can be applied in:
-
-- Professional **scouting departments**  
-- **Recruitment and transfer analysis**  
-- **Player benchmarking**  
-- Research in sports analytics  
-
----
-
-## Conclusion
-
-This project demonstrates how advanced metrics and machine learning techniques can be used to build a robust **player similarity model**, enabling more informed and objective decision-making in modern football.
