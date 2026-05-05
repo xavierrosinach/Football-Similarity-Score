@@ -13,9 +13,7 @@ This project is intended to:
 
 ## Application Scope
 
-The model has been applied to the **top teams worldwide according to the ELO ranking**, generating similarity reports for each player within these teams.
-
-The full implementation and execution pipeline can be found in the project code available in this repository (link to be added).
+The model has been applied to the **top 20 teams worldwide according to the ELO ranking**, generating similarity reports for each player within these teams. This ranked is based on the code on the following (https://github.com/xavierrosinach/Elo-Ranking-Model-Football.git)[repository].
 
 For each team, the system automatically generates a dataset containing the most similar players for every squad member.
 
@@ -34,8 +32,7 @@ This includes data aggregation, feature engineering, and transformation into a s
 
 Player similarity is computed using **cosine similarity**.
 
-Cosine similarity is a metric that measures the similarity between two vectors by calculating the cosine of the angle between them.  
-Instead of focusing on absolute values, it evaluates how similar the **patterns and distributions of features** are between players.
+Cosine similarity is a metric that measures the similarity between two vectors by calculating the cosine of the angle between them.  Instead of focusing on absolute values, it evaluates how similar the **patterns and distributions of features** are between players.
 
 - A value close to **1** indicates very similar players  
 - A value close to **0** indicates low similarity  
