@@ -1,0 +1,17 @@
+# Datos
+*.zip
+
+# Python
+__pycache__/
+*.pyc
+
+# Entornos
+.venv/
+env/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Sistema
+.DS_Store
+Thumbs.db
