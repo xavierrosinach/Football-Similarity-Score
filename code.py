@@ -32,7 +32,7 @@ warnings.simplefilter(action="ignore", category=PerformanceWarning)
 
 ACT_SEASON = "2526"
 
-ZIP_DATA_PATH = os.path.join(os.getcwd(), "data", "zipped-data.zip")
+ZIP_DATA_PATH = os.path.join(os.getcwd(), "data", "input.zip")
 INPUT_DATA_PATH = os.path.join(os.getcwd(), "data", "input")
 OUTPUT_DATA_PATH = os.path.join(os.getcwd(), "data", "output")
 
@@ -1059,7 +1059,7 @@ def main():
 
     for team_id, file_name in best_teams.items():
         print(f"Searching the top {top_n} most similar players for team {file_name}")
-        similar_players_df = get_team_similar_players(team_id=team_id, top_n=top_n)
+        similar_players_df = get_team_similar_players(team_id=team_id, top_n=top_n, ignore_team=True)
 
         similar_players_df.to_csv(
             os.path.join(OUTPUT_DATA_PATH, f"{file_name}.csv"),
